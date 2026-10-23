@@ -10,3 +10,9 @@ downloader
 *.exe
 *.tmp
 *.log
+.tools/
+frontend/node_modules/
+frontend/dist/
+frontend/wailsjs/
+build/bin/
+build/windows/

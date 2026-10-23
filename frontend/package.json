@@ -1,0 +1,21 @@
+{
+  "name": "getyt-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "check": "svelte-check --tsconfig ./jsconfig.json"
+  },
+  "dependencies": {
+    "@lucide/svelte": "^1.61.0",
+    "svelte": "^5.57.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "svelte-check": "^4.7.7",
+    "typescript": "^5.7.3",
+    "vite": "^8.3.5"
+  }
+}
